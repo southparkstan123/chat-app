@@ -1,0 +1,29 @@
+body{
+    margin:0;
+}
+#main{
+    margin-top: 20px;
+}
+#user-list{
+    overflow-y: scroll;
+    height:200px;
+}
+#userArea{
+    margin-bottom:10px;
+}
+#chat{
+    overflow-y: scroll;
+    overflow-x: none;
+    height:300px;
+    margin-bottom: 10px;
+}
+.message-time{
+    float: right;
+    margin: 0 10px;
+}
+textarea#message{
+    resize: none;
+}
+.well{
+    text-overflow: ellipsis;
+}
