@@ -43,7 +43,7 @@ app.use(session({
     saveUninitialized: true,
     resave: false,
     cookie: { 
-        maxAge: 10*1000 
+        maxAge: null
     }
 }));
 
